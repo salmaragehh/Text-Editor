@@ -1,0 +1,68 @@
+﻿/*
+ * FILE:          style.css
+ * PROJECT:       Text Editor
+ * PROGRAMMER:    Salma Rageh 
+ * FIRST VERSION: 2023-11-30
+ * DESCRIPTION:   This contains the css style for the page
+ */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #A8D9E8;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+label {
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #72D288;
+}
+
+select {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #ccc;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: both; 
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background-color: #5EAF71; 
+}
+
+#statusMessage {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
