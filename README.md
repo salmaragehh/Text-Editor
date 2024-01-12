@@ -2,8 +2,6 @@
 
 An online text editor application built using ASP.NET, HTML, CSS, JSON, and jQuery.
 
-[Live Demo](#)   
-
 ## Features
 
 - **Rich Text Editing:** Provide a feature-rich text editing experience.
